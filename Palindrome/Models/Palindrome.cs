@@ -18,4 +18,9 @@ namespace Palindrome.Models
       return true;
     }
   }
+
+  public class PalindromeVariable
+  {
+    public bool IsAPalindrome { get; set; }
+  }
 }
